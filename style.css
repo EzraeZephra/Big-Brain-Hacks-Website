@@ -1,4 +1,10 @@
 .title {
     font-size: 10vmax;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.links {
+    font-size: 2vmax;
+    margin-right: 1vmax;
 }
