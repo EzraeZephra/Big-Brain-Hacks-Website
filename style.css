@@ -1,11 +1,13 @@
 .title {
-    font-size: 10vmax;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+  font-size: 10vmax;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: rgb(21, 56, 33);
 }
 
 .links {
-    font-size: 2vmax;
-    margin-right: 1vmax;
-    margin-top: 0.5vmax;
+  font-size: 2vmax;
+  margin-right: 1vmax;
+  margin-top: 0.5vmax;
+  color: rgb(21, 56, 33);
 }
