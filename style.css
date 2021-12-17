@@ -1,3 +1,19 @@
+h1,
+h2,
+h3.h4,
+h5,
+h6,
+p,
+a,
+button {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+}
+
 .title {
   font-size: 10vmax;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -11,6 +27,39 @@
   margin-left: 1vmax;
   margin-top: 0.5vmax;
   color: rgb(21, 56, 33);
+}
+
+.infobox {
+  margin-top: 7vmax;
+  margin-right: 25vmax;
+  margin-left: 25vmax;
+  text-align: center;
+  font-size: 2vmax;
+  color: rgb(21, 56, 33);
+}
+
+.subtitle {
+  font-size: 4vmax;
+  margin-bottom: 1vmax;
+}
+
+.arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5vmax;
+  height: 4vmax;
+  margin-bottom: 10vmax;
+  margin-top: 12vh;
+}
+
+#mainlogo {
+  display: block;
+  width: 95vw;
+  height: 50vh;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #joinButton {
