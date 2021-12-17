@@ -10,7 +10,7 @@ button {
 }
 
 body {
-  background-color: rgb(54, 121, 95);
+  background: linear-gradient(to top left, #2a9baf, #146b4e);
 }
 
 a:hover {
