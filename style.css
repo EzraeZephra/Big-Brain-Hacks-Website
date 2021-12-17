@@ -10,7 +10,7 @@ button {
 }
 
 body {
-  background: linear-gradient(to top left, #136934, #81dbbd);
+  background-color: rgb(45, 51, 51);
 }
 
 a:hover {
@@ -22,7 +22,7 @@ a:hover {
   font-size: 10vmax;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
-  color: rgb(21, 56, 33);
+  color: rgb(255, 255, 255);
 }
 
 .links {
@@ -31,6 +31,7 @@ a:hover {
   margin-left: 1vmax;
   margin-top: 0.5vmax;
   color: rgb(21, 56, 33);
+  border: 0.5vmax solid;
 }
 
 .infobox {
@@ -57,6 +58,21 @@ a:hover {
   margin-top: 12vh;
 }
 
+.mainBox {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.games {
+  margin-top: 5vmax;
+  font-size: 7vmax;
+  text-align: center;
+  color: rgb(21, 56, 33);
+  border: 1vmax solid;
+  border-color: rgb(171, 206, 206);
+}
+
 #mainlogo {
   display: block;
   width: 95vw;
@@ -73,4 +89,6 @@ a:hover {
   float: right;
   background-color: rgb(124, 27, 27);
   color: rgb(255, 255, 255);
+  border: 0.5vmax solid;
+  border-color: rgb(122, 103, 103);
 }
