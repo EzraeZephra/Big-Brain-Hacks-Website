@@ -51,5 +51,6 @@ document.querySelector(".restartButton").addEventListener("click", function () {
   document.querySelector(".scoreLabel").textContent = `Score: ${points}`;
   document.querySelector(".number").textContent = "?";
   document.querySelector(".number").style.color = "#ffff";
+  document.querySelector(".highScoreLabel").textContent = `High Score: ${highScore}`;
   document.querySelector(".input").value = " ";
 });
