@@ -9,6 +9,10 @@ button {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+body {
+  background-color: rgb(54, 121, 95);
+}
+
 a:hover {
   color: orangered;
   font-weight: bold;
@@ -35,7 +39,7 @@ a:hover {
   margin-left: 25vmax;
   text-align: center;
   font-size: 2vmax;
-  color: rgb(21, 56, 33);
+  color: rgb(255, 255, 255);
 }
 
 .subtitle {
