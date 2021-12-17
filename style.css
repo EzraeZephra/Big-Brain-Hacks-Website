@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 h1,
 h2,
 h3.h4,
@@ -13,10 +12,6 @@ button {
 a:hover {
   color: orangered;
   font-weight: bold;
-=======
-h1,h2,h3.h4,h5,h6,p,a,button {
-  font-family: Georgia, 'Times New Roman', Times, serif;
->>>>>>> 4673ed51fc8ca69f0bb00d970a6dcda33575411e
 }
 
 .title {
