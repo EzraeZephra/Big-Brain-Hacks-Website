@@ -36,8 +36,8 @@ a:hover {
 
 .infobox {
   margin-top: 7vmax;
-  margin-right: 25vmax;
-  margin-left: 25vmax;
+  margin-right: 12vmax;
+  margin-left: 12vmax;
   text-align: center;
   font-size: 2vmax;
   color: rgb(255, 255, 255);
@@ -71,6 +71,7 @@ a:hover {
   color: rgb(21, 56, 33);
   border: 1vmax solid;
   border-color: rgb(171, 206, 206);
+  width: 80vmax;
 }
 
 #mainlogo {
@@ -91,4 +92,9 @@ a:hover {
   color: rgb(255, 255, 255);
   border: 0.5vmax solid;
   border-color: rgb(122, 103, 103);
+}
+
+#aboutUs {
+  margin-top: 2vmax;
+  text-align: justify;
 }

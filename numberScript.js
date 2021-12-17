@@ -5,7 +5,6 @@ let guessedNum = document.querySelector(".input").value;
 let points = 20;
 let highScore = 0;
 
-document.querySelector(".input").value;
 document.querySelector(".check").addEventListener("click", function () {
   guessedNum = parseInt(document.querySelector(".input").value);
   //console.log(guessedNum, typeof guessedNum);
@@ -51,4 +50,6 @@ document.querySelector(".restartButton").addEventListener("click", function () {
   document.querySelector(".message").textContent = "Start guessing!";
   document.querySelector(".scoreLabel").textContent = `Score: ${points}`;
   document.querySelector(".number").textContent = "?";
+  document.querySelector(".number").style.color = "#ffff";
+  document.querySelector(".input").value = " ";
 });
