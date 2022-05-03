@@ -83,7 +83,7 @@ a:hover {
   margin-right: auto;
 }
 
-#joinButton {
+#discordButton {
   font-size: 2vmax;
   margin-right: 1vmax;
   margin-top: 0.5vmax;
@@ -92,6 +92,17 @@ a:hover {
   color: rgb(255, 255, 255);
   border: 0.5vmax solid;
   border-color: rgb(44, 51, 121);
+}
+
+#joinButton {
+  font-size: 2vmax;
+  margin-right: 1vmax;
+  margin-top: 0.5vmax;
+  float: right;
+  background-color: rgb(209, 80, 80);
+  color: rgb(255, 255, 255);
+  border: 0.5vmax solid;
+  border-color: rgb(90, 25, 25);
 }
 
 #aboutUs {
