@@ -38,12 +38,32 @@ body {
   font-size: 3vmax;
   margin: 1vmax;
   color: rgb(21, 56, 33);
+  border-color: rgb(21, 56, 33);
+  border: 0.25vmax solid;
+  border-radius: 2px;
+}
+
+.navigationButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
 }
 
 .restartButton {
   font-size: 3vmax;
   margin: 1vmax;
   color: rgb(21, 56, 33);
+  border-color: rgb(21, 56, 33);
+  border: 0.25vmax solid;
+  border-radius: 2px;
+}
+
+.restartButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
 }
 
 .box1 {
@@ -64,4 +84,14 @@ body {
   font-size: 3vmax;
   left: 2vmax;
   color: rgb(21, 56, 33);
+  border-color: rgb(21, 56, 33);
+  border: 0.25vmax solid;
+  border-radius: 2px;
+}
+
+.check:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
 }
